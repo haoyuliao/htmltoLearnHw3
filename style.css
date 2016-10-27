@@ -1,0 +1,28 @@
+div.square {
+    width: 0;
+    height: 0;
+    background: :lightblue;
+    border: 50px solid green;
+    border-left: 50px solid yellow;
+    border-right: 50px solid red;
+    border-top: 50px solid green;
+    border-bottom: 50px solid blue;
+}
+.top {
+    width: 200px;
+    height: 50px;
+    background:lightgreen;
+    margin: 100px 0px 0px 100px;
+    border: 5px solid green;
+    border-top-style: double;
+    border-bottom-style: dotted;
+    
+}
+.bot {
+    width: 150px;
+    height: 250px;
+    background:lightgreen;
+    margin: 0px 125px;
+    border: 5px solid green;
+    border-top: 0px none green;
+}
