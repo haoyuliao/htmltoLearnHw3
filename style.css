@@ -1,28 +1,170 @@
 div.square {
     width: 0;
     height: 0;
-    background: :lightblue;
+    background: : lightblue;
     border: 50px solid green;
     border-left: 50px solid yellow;
     border-right: 50px solid red;
     border-top: 50px solid green;
     border-bottom: 50px solid blue;
 }
+
 .top {
     width: 200px;
     height: 50px;
-    background:lightgreen;
+    background: lightgreen;
     margin: 100px 0px 0px 100px;
     border: 5px solid green;
     border-top-style: double;
     border-bottom-style: dotted;
-    
 }
+
 .bot {
     width: 150px;
     height: 250px;
-    background:lightgreen;
+    background: lightgreen;
     margin: 0px 125px;
     border: 5px solid green;
     border-top: 0px none green;
+}
+
+.backout {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.back * {
+    display: inline-block;
+}
+
+div.back {
+    background: url(0UQIG7.jpg);
+    text-align: center;
+    margin: 0px auto;
+    width: 50%;
+    height: 500px;
+}
+
+div.col {
+    width: 30%;
+    height: 40vh;
+    background: #ffffff;
+}
+
+.innerbox1 {
+    width: 100%;
+    height: 50%;
+    background: rgb(52, 73, 94);
+    text-align: center;
+}
+
+.innerbox2 {
+    width: 100%;
+    height: 50%;
+    background: #ffffff;
+    text-align: center;
+}
+
+.title {
+    width: 100%;
+    margin-top: 25px;
+    font-size: 25px;
+    font-family: arial;
+    font-weight: 500;
+    color: white;
+}
+
+.g1 {
+    width: 38%;
+}
+
+.bussiness {
+    width: auto;
+}
+
+.extended {
+    width: auto;
+}
+
+.money {
+    float: left;
+    font-size: 20px;
+    color: white;
+    font-family: arial;
+    font-weight: 500;
+}
+
+.much {
+    font-size: 80px;
+    color: white;
+    text-align: center;
+    font-family: arial;
+    font-weight: 500;
+}
+
+.mo {
+    height: 15px;
+    font-size: 10px;
+    color: white;
+    font-family: arial;
+    font-weight: 500;
+}
+
+.free {
+    display: block;
+    width: 60%;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    font-family: arial;
+    font-weight: 200;
+    border: 2px;
+    border-style: solid;
+    margin-left: 20%;
+}
+
+.g2 {
+    margin-top: 15%;
+}
+
+.g3 {
+    display: block;
+    padding: 5px;
+    border-bottom: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: gainsboro;
+    text-align: left;
+    color: gold;
+}
+
+.g4 {
+    padding: 5px;
+    display: block;
+    text-align: left;
+    color: gold;
+}
+
+strong {
+    color: red;
+}
+
+.mess {
+    margin-left: 8px;
+}
+
+.limit {
+    margin-left: 8px;
+}
+
+.users {
+    margin-left: 9px;
+}
+
+.fee {
+    margin-left: 3px;
 }
